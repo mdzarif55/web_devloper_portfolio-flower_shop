@@ -1,5 +1,7 @@
 * {
     margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
 }
 
 body {
@@ -89,12 +91,10 @@ body {
 
 .feature-des {
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
+    display: inline-block;
     font-family: Lato;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+    width: 594px;
     /* 166.667% */
 }
 
@@ -208,10 +208,11 @@ body {
     background: rgba(229, 84, 115, 0.05);
 }
 
-.hot-deal-discounts{
+.hot-deal-discounts {
     margin-top: 110px;
     text-align: center;
 }
+
 .hot-deals-container {
     display: flex;
     margin-left: 280px;
@@ -230,4 +231,78 @@ body {
 
 .primary-clr {
     color: #E55473;
+}
+
+.insta-texts {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.insta-images {
+    margin-top: 50px;
+    margin-left: 130px;
+    display: flex;
+    gap: 25px;
+}
+
+.get-deals {
+    background-image: url(../images/Rectangle\ 9.png);
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    margin-top: 130px;
+    margin-left: 130px;
+}
+
+.texts-and-email {
+    text-align: center;
+    padding-top: 125px;
+}
+
+.email-subscribe {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    padding: 25px;
+    padding-right: 350px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 15px;
+}
+
+/* //////////footer starts */
+footer {
+    margin-top: 140px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+    text-align: center;
+}
+.footer-texts{
+    /* text-align: center; */
+    padding-top: 120px;
+}
+.flower-shop {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.fs-description {
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    width: 625px;
+    display: inline-block;
+}
+
+.copyright {
+    margin-top: 32px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
